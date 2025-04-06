@@ -16,8 +16,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "npm run build && node --inspect-brk out/main",
-    "dev:watch": "tsc-watch --onSuccess \"node --inspect-brk out/main\"",
+    "dev": "npm run build && node --inspect-brk dist/main",
+    "dev:watch": "tsc-watch --onSuccess \"node --inspect-brk dist/main\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

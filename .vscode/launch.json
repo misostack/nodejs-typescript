@@ -11,7 +11,7 @@
       "skipFiles": ["<node_internals>/**"],
       "program": "${file}",
       "preLaunchTask": "npm: build",
-      "outFiles": ["${workspaceFolder}/out/**/*.js"]
+      "outFiles": ["${workspaceFolder}/dist/**/*.js"]
     },
     {
       "type": "node",
